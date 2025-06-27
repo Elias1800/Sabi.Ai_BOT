@@ -10,7 +10,7 @@
 [![Licença MIT](https://img.shields.io/badge/licença-MIT-yellow)](LICENSE)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elias-barbosa-367280282)
 
-![SabiAi Bot Banner](docs\banner.png)
+![SabiAi Bot Banner](docs/banner.png)
 
 > **SabiAi Bot** é um assistente pessoal inteligente que integra a API Gemini e o Telegram para ajudar você no dia a dia.  
 > O bot identifica, busca, adapta e revisa respostas para fornecer informações úteis, dicas e apoio.
