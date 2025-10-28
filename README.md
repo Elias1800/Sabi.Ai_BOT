@@ -1,7 +1,5 @@
 # SabiAi_BOT
 
-
-# SabiAi Bot
 ![Versão](https://img.shields.io/badge/versão-1.0.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen)
 ![Gemini API](https://img.shields.io/badge/Gemini-API-lightgrey)
