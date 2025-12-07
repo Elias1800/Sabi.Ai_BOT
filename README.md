@@ -1,6 +1,6 @@
 # SabiAi_BOT
 
-![Versão](https://img.shields.io/badge/versão-1.0.0-blue)
+![Versão](https://img.shields.io/badge/versão-1.1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-brightgreen)
 ![Gemini API](https://img.shields.io/badge/Gemini-API-lightgrey)
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-blue)
@@ -21,6 +21,7 @@
 - [Instalação](#instalação)
 - [Configuração](#configuração)
 - [Como Usar](#como-usar)
+- [Novidades (v1.1.0)](#novidades-(v1.1.0))
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
@@ -47,23 +48,29 @@ cd SabiAi_Bot
 ```
 2️⃣ Instale as dependências:
 ```bash
-pip install python-telegram-bot google-generativeai
+pip install python-telegram-bot google-generativeai requests
 ```
 
 ## Configuração
-Edite o arquivo principal e Agentes, e insira suas chaves:
+Edite o arquivo main e insira suas chaves:
 ```python
-genai.configure(api_key="SUA_CHAVE_GEMINI")
 TOKEN_TELEGRAM = 'SUA_CHAVE_TELEGRAM'
+GEMINI_API_KEY = 'SUA_API_KEY'
 ```
 💡 **Dica:** Para segurança, considere usar variáveis de ambiente no futuro.
 
 ## Como Usar
 Execute no terminal:
 ```bash
-python bot-telegram.py
+python main.py
 ```
 📌 O bot ficará aguardando mensagens no Telegram.
+
+## Novidades (v1.1.0)
+- Atualizado para Gemini v2.5 (models/gemini-2.5-flash).
+- Implementado esquema de histórico por usuário (memória).
+- Refatorado agentes e fluxo de mensagens.
+- Recomenda-se usar variáveis de ambiente e não commitar chaves.
 
 ## Contribuição
 [Veja como contribuir](https://github.com/tiagoporto/.github/blob/main/CONTRIBUTING.md).
