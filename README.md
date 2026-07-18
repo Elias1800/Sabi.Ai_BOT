@@ -6,7 +6,7 @@
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-blue)
 ![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-orange)
 [![Licença MIT](https://img.shields.io/badge/licença-MIT-yellow)](LICENSE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elias-barbosa-367280282)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elias-barbosa-367280282)
 
 ![SabiAi Bot Banner](docs/banner1.png)
 
